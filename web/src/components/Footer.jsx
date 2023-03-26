@@ -1,7 +1,7 @@
 import { FiInstagram, FiTwitter } from 'react-icons/fi'
 
 
-export default function Header() {
+export default function Footer() {
     return (
         <div className="bg-cyan-700 w-screen h-24 flex justify-around items-center mt-16 px-1 lg:px-12">
             <div className="flex flex-col text-cyan-300 text-xs lg:text-sm font-normal">

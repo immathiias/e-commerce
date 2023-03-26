@@ -30,7 +30,9 @@ module.exports = {
         // => @media (min-width: 730px) { ... }
         'xs2': {'max': '790px'},
         // => @media (max-width: 666px) { ... }
-        'xs1': {'max': '400px'}
+        'xs1': {'max': '400px'},
+        // => @media (max-width: 400px) { ... }
+        'xs0': {'max': '360px'}
         // => @media (max-width: 400px) { ... }
       }
     },

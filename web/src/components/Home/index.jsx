@@ -1,10 +1,10 @@
-import Header from "../components/Header"
-import BottomHeader from "../components/BottomHeader"
-import SeparatorLine from "../components/SeparatorLine"
+import Header from "../Header"
+import BottomHeader from "../BottomHeader"
+import SeparatorLine from "../SeparatorLine"
 import welcomeImg from "/images/welcome.jpg"
-import Highlights from "../components/Home/Highlights"
-import Category from "../components/Home/Category"
-import Footer from "../components/Footer"
+import Highlights from "./Highlights"
+import Category from "./Category"
+import Footer from "../Footer"
 
 function Home() {
     return (

@@ -3,7 +3,10 @@ export default function Button(props) {
     const textColor = props.color === 'light' ? 'text-cyan-500' : 'text-cyan-100'
 
     return (
-        <button className={`flex justify-center items-center w-${props.w} h-${props.h} p-${props.p} mt-${props.mt} ${textColor} ${bgColor} text-${props.fontSize} rounded hover:opacity-80 transition`}>
+        <button onClick={props.onClick}
+            className={`flex justify-center items-center w-${props.w} h-${props.h} p-${props.p} mt-${props.mt} ${textColor} ${bgColor} 
+                text-${props.fontSize} font-${props.fontWeight} rounded hover:opacity-80 transition`}
+        >
             {props.icon}{props.text}
         </button>
     )
