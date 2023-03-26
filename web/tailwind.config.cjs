@@ -22,9 +22,20 @@ module.exports = {
         'roboto': ['Roboto', 'sans-serif'],
         'poppins': ['Poppins', 'sans-serif'],
         'ubuntu': ['Ubuntu', 'sans-serif']
+      },
+    },
+    extend: {
+      screens: {
+        'sm2': '730px',
+        // => @media (min-width: 730px) { ... }
+        'xs2': {'max': '790px'},
+        // => @media (max-width: 666px) { ... }
+        'xs1': {'max': '400px'},
+        // => @media (max-width: 400px) { ... }
+        'xs0': {'max': '360px'}
+        // => @media (max-width: 400px) { ... }
       }
     },
-    extend: {},
   },
   plugins: [],
 }
