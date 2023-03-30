@@ -1,5 +1,5 @@
 import Header from "../Header"
-import BottomHeader from "../BottomHeader"
+import BottomHeader from "../Navigation/NavBar"
 import SeparatorLine from "../SeparatorLine"
 import welcomeImg from "/images/welcome.jpg"
 import Highlights from "./Highlights"
