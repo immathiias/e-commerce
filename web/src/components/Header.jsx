@@ -16,7 +16,6 @@ export default function Header() {
                 onClick={() => navigate('/cadastro')}
                 className="w-32 lg:w-52 text-start text-cyan-100 font-bold flex gap-1 lg:gap-2 cursor-pointer text-xs lg:text-sm items-center hover:opacity-80 transition-all"
             >
-
                 <span><FiUser className="w-4 h-4 lg:w-6 lg:h-6" /></span> Olá, faça seu login ou seu cadastro.
             </button>
         </div>
