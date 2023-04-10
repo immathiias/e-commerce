@@ -4,7 +4,7 @@ export default function Button(props) {
 
     return (
         <button onClick={props.onClick}
-            className={`flex justify-center items-center w-${props.w} h-${props.h} p-${props.p} mt-${props.mt} ${textColor} ${bgColor} 
+            className={`flex justify-center items-center w-${props.width} h-${props.height} p-${props.padding} mt-${props.mt} ${textColor} ${bgColor} 
                 text-${props.fontSize} font-${props.fontWeight} rounded hover:opacity-80 transition`}
         >
             {props.icon}{props.text}

@@ -1,0 +1,54 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Smartphone 256GB | 12GB RAM | 5G",
+            "img": "https://i.postimg.cc/x1g5hQBK/smartphone.png",
+            "price": 1299.99,
+            "promotionPercentage": 20,
+            "promotion": true,
+            "stock": 56,
+            "solds": 21,
+            "categoryId": 1
+        },
+        {
+            "id": 2,
+            "name": "Fone de ouvido 500mah Bluetooth 5.2",
+            "img": "https://i.postimg.cc/hG5r4rDv/fone-bluetooth.png",
+            "price": 129.99,
+            "promotionPercentage": 50,
+            "promotion": true,
+            "stock": 102,
+            "solds": 78,
+            "categoryId": 1
+        },
+        {
+            "id": 3,
+            "name": "Bateria portátil 10.000mah",
+            "img": "https://i.postimg.cc/dQTW1zTY/caixa-de-som-portatil.png",
+            "price": 84.99,
+            "promotionPercentage": 10,
+            "promotion": true,
+            "stock": 16,
+            "solds": 34,
+            "categoryId": 1
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "Eletrônicos",
+            "img": "https://i.postimg.cc/ZKSZbk59/eletronicos.png"
+        },
+        {
+            "id": 2,
+            "name": "Jogos",
+            "img": "https://i.postimg.cc/jd4TC8DM/games.png"
+        },
+        {
+            "id": 3,
+            "name": "Acessórios",
+            "img": "https://i.postimg.cc/KYwSCwW8/acessorios.png"
+        }
+    ]
+}
