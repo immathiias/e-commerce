@@ -7,13 +7,13 @@ const Buttons = () => {
         <>
             <Button
                 icon={<FiShoppingCart className="w-6 h-6 lg:w-5 lg:h-5 mr-2 lg:mr-1" />}
-                width={'80 xs1:w-60 lg:w-48'} height={'10'} padding={'2'} mt={'1'}
+                width="w-80 xs1:w-60 lg:w-48" height="h-10" padding="p-1" mt="mt-1"
                 text="Adicionar ao carrinho"
                 color="light" fontSize="sm"
             />
 
             <Button
-                width={'80 xs1:w-60 lg:w-48'} height={'10'} padding={'2'} mt={'2'}
+                width="w-80 xs1:w-60 lg:w-48" height="h-10" padding="p-2" mt="mt-2"
                 text="Ver detalhes"
                 color="dark" fontSize="sm"
             />

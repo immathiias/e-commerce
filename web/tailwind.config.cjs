@@ -30,6 +30,8 @@ module.exports = {
         // => @media (min-width: 730px) { ... }
         'xs2': {'max': '790px'},
         // => @media (max-width: 666px) { ... }
+        'lgMax': {'max': '1024px'},
+        // => @media (max-width: 1024px) { ... }
         'xs1': {'max': '400px'},
         // => @media (max-width: 400px) { ... }
         'xs0': {'max': '360px'}

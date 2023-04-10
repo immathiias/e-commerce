@@ -9,6 +9,25 @@
             "promotion": true,
             "stock": 56,
             "solds": 21,
+            "colors": [
+                {
+                    "id": 1,
+                    "name": "Azul",
+                    "color": "#80e5ff",
+                    "img": "https://i.postimg.cc/x1g5hQBK/smartphone.png"
+                },
+                {
+                    "id": 2,
+                    "name": "Branco",
+                    "color": "#f2f2f2"
+                },
+                {
+                    "id": 3,
+                    "name": "Preto",
+                    "color": "#0d0d0d"
+                }
+            ],
+            "productColors": true,
             "categoryId": 1
         },
         {
@@ -20,6 +39,20 @@
             "promotion": true,
             "stock": 102,
             "solds": 78,
+            "colors": [
+                {
+                    "id": 1,
+                    "name": "Azul",
+                    "color": "#80e5ff",
+                    "img": "https://i.postimg.cc/hG5r4rDv/fone-bluetooth.png"
+                },
+                {
+                    "id": 3,
+                    "name": "Preto",
+                    "color": "#0d0d0d"
+                }
+            ],
+            "productColors": true,
             "categoryId": 1
         },
         {
@@ -31,6 +64,8 @@
             "promotion": true,
             "stock": 16,
             "solds": 34,
+            "colors": [],
+            "productColors": false,
             "categoryId": 1
         }
     ],

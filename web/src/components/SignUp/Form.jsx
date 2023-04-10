@@ -31,8 +31,8 @@ export default function Form() {
                 />
 
                 <Button
-                    w={"full"} h={10} p={2} mt={2}
-                    text={"Logar"}
+                    width="w-full" height="h-10" padding="p-2" mt="mt-2"
+                    text={"Cadastre-se"}
                     color="dark" fontSize="lg" fontWeight="bold"
                 />
             </form>
