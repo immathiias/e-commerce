@@ -35,13 +35,28 @@ export default function Header() {
             <nav className="lgMax:hidden flex gap-10 xl:gap-16 text-cyan-100 text-sm font-[Poppins] font-bold items-center">
                 <ul className="flex gap-6 xl:gap-8">
                     <li>
-                        <button>Início</button>
+                        <button
+                            onClick={() => navigate("/")}
+                            className="hover:opacity-60 transition duration-300"
+                        >
+                            Início
+                        </button>
                     </li>
                     <li>
-                        <button>Produtos</button>
+                        <button
+                            onClick={() => navigate("/produtos")}
+                            className="hover:opacity-60 transition duration-300"
+                        >
+                            Produtos
+                        </button>
                     </li>
                     <li>
-                        <button>Contatos</button>
+                    <button
+                            onClick={() => navigate("/")}
+                            className="hover:opacity-60 transition duration-300"
+                        >
+                            Contatos
+                        </button>
                     </li>
                 </ul>
 
@@ -62,7 +77,7 @@ export default function Header() {
             </nav>
 
             <button
-                onClick={() => navigate('/cadastro')}
+                onClick={() => navigate("/cadastro")}
                 className="lgMax:hidden w-32 lg:w-52 text-start text-cyan-100 font-bold flex gap-1 lg:gap-2 cursor-pointer text-xs lg:text-sm items-center hover:opacity-80 transition-all"
             >
                 <span><FiUser className="w-4 h-4 lg:w-6 lg:h-6" /></span> Olá, faça seu login ou seu cadastro.
