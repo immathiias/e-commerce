@@ -1,12 +1,10 @@
 import Home from "../components/Home"
 
 
-function homeScreen() {
+export default function HomeScreen() {
     return (
         <>
             <Home />
         </>
     )
 }
-
-export default homeScreen
