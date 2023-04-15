@@ -5,6 +5,8 @@ import ProductsList from "./ProductsList";
 import Loading from "../Loading";
 
 import api from "../../services/api";
+import Footer from "../Footer";
+import { Categories } from "./Categories";
 
 export default function Products() {
     const [loading, setLoading] = useState(true)
@@ -20,11 +22,13 @@ export default function Products() {
 
         fetchAPI()
     }, [])
+
+
     return (
         <>
             <Header />
 
-            <main className="container mx-auto my-10 grid gap-12 justify-center items-center">
+            <main className="container mx-auto my-10 flex flex-1 flex-col gap-12 justify-center items-center">
                 <div className="grid gap-2">
                     <div className="text-gray-200 font-['Roboto'] font-medium text-3xl">Mais vendidos</div>
                     <div className="flex flex-col lg:flex-row gap-10 py-8 justify-center items-center font-[poppins] font-semibold text-gray-200">
@@ -39,13 +43,18 @@ export default function Products() {
                                     promotion={product.promotion}
                                     promotionPercentage={product.promotionPercentage}
                                     bestsellers={true}
-                                    positionSold={i+1}
+                                    positionSold={i + 1}
                                 />
                             ))
                         }
                     </div>
+
+                    <Categories data={products} />
+
                 </div>
             </main>
+
+            <Footer />
         </>
     )
 }
