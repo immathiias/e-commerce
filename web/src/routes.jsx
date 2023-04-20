@@ -6,6 +6,7 @@ import LoginScreen from './screens/loginScreen';
 import NotFoundScreen from './screens/notFoundScreen';
 import productsScreen from './screens/productsScreen';
 import productDetail from './screens/productDetail';
+import contactScreen from './screens/contactScreen';
 
 const Router = () => (
     <BrowserRouter>
@@ -14,6 +15,7 @@ const Router = () => (
             <Route path="/cadastro" Component={SignUpScreen} />
             <Route path="/login" Component={LoginScreen} />
             <Route path="/produtos" Component={productsScreen} />
+            <Route path="/contatos" Component={contactScreen} />
             <Route path="/produto/:id" Component={productDetail} />
             <Route path="*" Component={NotFoundScreen} />
         </Routes>
