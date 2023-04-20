@@ -11,7 +11,6 @@ import { Categories } from "./Categories";
 export default function Products() {
     const [loading, setLoading] = useState(true)
     const [products, setProducts] = useState([])
-
     useEffect(() => {
         async function fetchAPI() {
             const response = await api.get('/products')

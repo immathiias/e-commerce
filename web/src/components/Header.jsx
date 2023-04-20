@@ -52,7 +52,7 @@ export default function Header() {
                     </li>
                     <li>
                     <button
-                            onClick={() => navigate("/")}
+                            onClick={() => navigate("/contatos")}
                             className="hover:opacity-60 transition duration-300"
                         >
                             Contatos
