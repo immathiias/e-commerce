@@ -12,6 +12,10 @@
     background-color: #C1DFF0;
     border-radius: 8px;
 }
+html, body, #root, .App {
+    height: 100%;
+}
+
 
 body {
     overflow-x: hidden;

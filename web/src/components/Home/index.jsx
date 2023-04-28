@@ -8,8 +8,8 @@ import ProductsHighlights from "../Products/ProductsList"
 import CategoryList from "../Category/CategoryList"
 import Footer from "../Footer"
 
-import api from "../../services/api"
 import Loading from "../Loading"
+import { fetchProducts, fetchCategories } from "../../services/api/fetchAPI";
 
 function Home() {
     const [loading, setLoading] = useState(true)
@@ -20,20 +20,20 @@ function Home() {
 
     useEffect(() => {
         async function fetchAPI() {
-            const responseProduct = await api.get('/products')
-            const responseCategory = await api.get('/categories')
+            const responseProduct = await fetchProducts()
+            const responseCategory = await fetchCategories()
 
-            setProductsHighlights(responseProduct.data)
-            setCategories(responseCategory.data)
+            setProductsHighlights(responseProduct)
+            setCategories(responseCategory)
             setLoading(false)
         }
 
         fetchAPI()
     }, [])
     return (
-        <>
+        <div className="flex flex-col h-full">
             <Header />
-            <main className="container mx-auto my-10 grid gap-12 justify-center items-center">
+            <main className="container mx-auto my-10 grid gap-12 flex-1 justify-center items-center">
                 <img src={welcomeImg} className="rounded-md mx-auto w-screen p-6 sm2:w-full sm2:p-0 md:p-0 h-auto" />
                 <SeparatorLine />
 
@@ -85,7 +85,7 @@ function Home() {
             </main>
 
             <Footer />
-        </>
+        </div>
     )
 }
 

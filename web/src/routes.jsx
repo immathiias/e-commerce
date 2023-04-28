@@ -7,6 +7,7 @@ import NotFoundScreen from './screens/notFoundScreen';
 import productsScreen from './screens/productsScreen';
 import productDetail from './screens/productDetail';
 import contactScreen from './screens/contactScreen';
+import cartScreen from './screens/cartScreen';
 
 const Router = () => (
     <BrowserRouter>
@@ -16,6 +17,7 @@ const Router = () => (
             <Route path="/login" Component={LoginScreen} />
             <Route path="/produtos" Component={productsScreen} />
             <Route path="/contatos" Component={contactScreen} />
+            <Route path="/carrinho" Component={cartScreen} />
             <Route path="/produto/:id" Component={productDetail} />
             <Route path="*" Component={NotFoundScreen} />
         </Routes>
