@@ -4,18 +4,18 @@ import Header from "../Header";
 import ProductsList from "./ProductsList";
 import Loading from "../Loading";
 
-import api from "../../services/api";
 import Footer from "../Footer";
 import { Categories } from "./Categories";
+import { fetchProducts } from "../../services/api/fetchAPI";
 
 export default function Products() {
     const [loading, setLoading] = useState(true)
     const [products, setProducts] = useState([])
     useEffect(() => {
         async function fetchAPI() {
-            const response = await api.get('/products')
+            const response = await fetchProducts()
 
-            setProducts(response.data)
+            setProducts(response)
             setLoading(false)
         }
 
@@ -24,7 +24,7 @@ export default function Products() {
 
 
     return (
-        <>
+        <div className="flex flex-col h-full">
             <Header />
 
             <main className="container mx-auto my-10 flex flex-1 flex-col gap-12 justify-center items-center">
@@ -54,6 +54,6 @@ export default function Products() {
             </main>
 
             <Footer />
-        </>
+        </div>
     )
 }
