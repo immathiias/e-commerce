@@ -1,202 +1,202 @@
 {
-    "products": [
+  "products": [
+    {
+      "id": 1,
+      "name": "Smartphone 256GB | 12GB RAM | 5G",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quod labore ab nostrum, illo, sed iure eaque laudantium dignissimos repellat eveniet minima temporibus repudiandae illum iste blanditiis at repellendus eos! Neque doloribus non praesentium nam ipsam sed pariatur architecto? Nemo tempore facilis distinctio ex obcaecati dolores in quod beatae nulla.",
+      "img": "https://i.postimg.cc/x1g5hQBK/smartphone.png",
+      "price": 1299.99,
+      "promotionPercentage": 20,
+      "promotion": true,
+      "stock": 96,
+      "solds": 194,
+      "colors": [
         {
-            "id": 1,
-            "name": "Smartphone 256GB | 12GB RAM | 5G",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quod labore ab nostrum, illo, sed iure eaque laudantium dignissimos repellat eveniet minima temporibus repudiandae illum iste blanditiis at repellendus eos! Neque doloribus non praesentium nam ipsam sed pariatur architecto? Nemo tempore facilis distinctio ex obcaecati dolores in quod beatae nulla.",
-            "img": "https://i.postimg.cc/x1g5hQBK/smartphone.png",
-            "price": 1299.99,
-            "promotionPercentage": 20,
-            "promotion": true,
-            "stock": 96,
-            "solds": 194,
-            "colors": [
-                {
-                    "id": 1,
-                    "name": "Azul",
-                    "color": "#80e5ff",
-                    "img": "https://i.postimg.cc/x1g5hQBK/smartphone.png",
-                    "stock": 56,
-                    "solds": 24
-                },
-                {
-                    "id": 2,
-                    "name": "Branco",
-                    "color": "#f2f2f2",
-                    "stock": 22,
-                    "solds": 68
-                },
-                {
-                    "id": 3,
-                    "name": "Preto",
-                    "color": "#0d0d0d",
-                    "stock": 18,
-                    "solds": 102
-                }
-            ],
-            "reviews": [
-                {
-                    "id": 1,
-                    "user": "Mathias",
-                    "score": 4,
-                    "comment": "Muito bom o produto!"
-                },
-                {
-                    "id": 2,
-                    "user": "João",
-                    "score": 5,
-                    "comment": "Ótimo!"
-                }
-            ],
-            "categoryId": 1
+          "id": 1,
+          "name": "Azul",
+          "color": "#80e5ff",
+          "img": "https://i.postimg.cc/x1g5hQBK/smartphone.png",
+          "stock": 56,
+          "solds": 24
         },
         {
-            "id": 2,
-            "name": "Fone de ouvido 500mah Bluetooth 5.2",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quod labore ab nostrum, illo, sed iure eaque laudantium dignissimos repellat eveniet minima temporibus repudiandae illum iste blanditiis at repellendus eos! Neque doloribus non praesentium nam ipsam sed pariatur architecto? Nemo tempore facilis distinctio ex obcaecati dolores in quod beatae nulla.",
-            "img": "https://i.postimg.cc/hG5r4rDv/fone-bluetooth.png",
-            "price": 129.99,
-            "promotionPercentage": 50,
-            "promotion": true,
-            "stock": 227,
-            "solds": 123,
-            "colors": [
-                {
-                    "id": 1,
-                    "name": "Azul",
-                    "color": "#80e5ff",
-                    "stock": 125,
-                    "solds":25
-                },
-                {
-                    "id": 3,
-                    "name": "Preto",
-                    "color": "#0d0d0d",
-                    "stock": 102,
-                    "solds": 98
-                }
-            ],
-            "reviews": [
-                {
-                    "id": 1,
-                    "user": "Maria",
-                    "score": 4,
-                    "comment": "Muito pra jogar!"
-                },
-                {
-                    "id": 2,
-                    "user": "Matheus",
-                    "score": 5,
-                    "comment": "Ótimo produto!"
-                }
-            ],
-            "categoryId": 1
+          "id": 2,
+          "name": "Branco",
+          "color": "#f2f2f2",
+          "stock": 22,
+          "solds": 68
         },
         {
-            "id": 3,
-            "name": "Caixa de som portátil bluetooth",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quod labore ab nostrum, illo, sed iure eaque laudantium dignissimos repellat eveniet minima temporibus repudiandae illum iste blanditiis at repellendus eos! Neque doloribus non praesentium nam ipsam sed pariatur architecto? Nemo tempore facilis distinctio ex obcaecati dolores in quod beatae nulla.",
-            "img": "https://i.postimg.cc/dQTW1zTY/caixa-de-som-portatil.png",
-            "price": 84.99,
-            "promotionPercentage": 10,
-            "promotion": true,
-            "stock": 16,
-            "solds": 34,
-            "colors": [
-                {
-                    "id": 1,
-                    "name": "Azul",
-                    "color": "#80e5ff",
-                    "stock": 16,
-                    "solds":34
-                }
-            ],
-            "reviews": [
-                {
-                    "id": 1,
-                    "user": "Manoel",
-                    "score": 4,
-                    "comment": "Muito boa a caixa de som!"
-                },
-                {
-                    "id": 2,
-                    "user": "Leal",
-                    "score": 5,
-                    "comment": "A caixa tem um grave excelente!"
-                }
-            ],
-            "categoryId": 1
-        },
-        {
-            "id": 4,
-            "name": "Garrafa térmica de aluminio 500ml",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quod labore ab nostrum, illo, sed iure eaque laudantium dignissimos repellat eveniet minima temporibus repudiandae illum iste blanditiis at repellendus eos! Neque doloribus non praesentium nam ipsam sed pariatur architecto? Nemo tempore facilis distinctio ex obcaecati dolores in quod beatae nulla.",
-            "img": "https://i.postimg.cc/3xSFrCcS/garrafa-termica.png",
-            "price": 49.99,
-            "promotionPercentage": 20,
-            "promotion": true,
-            "stock": 100,
-            "solds": 50,
-            "colors": [
-                {
-                    "id": 1,
-                    "name": "Prata",
-                    "color": "#dddd",
-                    "stock": 100,
-                    "solds":50
-                }
-            ],
-            "reviews": [
-                {
-                    "id": 1,
-                    "user": "Mathias",
-                    "score": 4,
-                    "comment": "Muito boa!"
-                },
-                {
-                    "id": 2,
-                    "user": "Gabriel",
-                    "score": 5,
-                    "comment": "Excelente!"
-                }
-            ],
-            "categoryId": 3
+          "id": 3,
+          "name": "Preto",
+          "color": "#0d0d0d",
+          "stock": 18,
+          "solds": 102
         }
-    ],
-    "categories": [
+      ],
+      "reviews": [
         {
-            "id": 1,
-            "name": "Eletrônicos",
-            "img": "https://i.postimg.cc/ZKSZbk59/eletronicos.png"
+          "id": 1,
+          "user": "Mathias",
+          "score": 4,
+          "comment": "Muito bom o produto!"
         },
         {
-            "id": 2,
-            "name": "Jogos",
-            "img": "https://i.postimg.cc/jd4TC8DM/games.png"
+          "id": 2,
+          "user": "João",
+          "score": 5,
+          "comment": "Ótimo!"
+        }
+      ],
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "name": "Fone de ouvido 500mah Bluetooth 5.2",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quod labore ab nostrum, illo, sed iure eaque laudantium dignissimos repellat eveniet minima temporibus repudiandae illum iste blanditiis at repellendus eos! Neque doloribus non praesentium nam ipsam sed pariatur architecto? Nemo tempore facilis distinctio ex obcaecati dolores in quod beatae nulla.",
+      "img": "https://i.postimg.cc/hG5r4rDv/fone-bluetooth.png",
+      "price": 129.99,
+      "promotionPercentage": 50,
+      "promotion": true,
+      "stock": 227,
+      "solds": 123,
+      "colors": [
+        {
+          "id": 1,
+          "name": "Azul",
+          "color": "#80e5ff",
+          "stock": 125,
+          "solds": 25
         },
         {
-            "id": 3,
-            "name": "Acessórios",
-            "img": "https://i.postimg.cc/KYwSCwW8/acessorios.png"
+          "id": 3,
+          "name": "Preto",
+          "color": "#0d0d0d",
+          "stock": 102,
+          "solds": 98
         }
-    ],
-    "cart": [
+      ],
+      "reviews": [
         {
-            "id": 1,
-            "userId": 1,
-            "product": {
-                "name": "Smartphone 256GB | 12GB RAM | 5G",
-                "img": "https://i.postimg.cc/x1g5hQBK/smartphone.png",
-                "price": 1299.99,
-                "promotionPercentage": 20,
-                "promotion": true,
-                "stock": 96,
-                "color": {
-                    "name": "Azul",
-                    "hex": "#80e5ff"
-                }
-            },
-            "quantity": 1
+          "id": 1,
+          "user": "Maria",
+          "score": 4,
+          "comment": "Muito pra jogar!"
+        },
+        {
+          "id": 2,
+          "user": "Matheus",
+          "score": 5,
+          "comment": "Ótimo produto!"
         }
-    ]
+      ],
+      "categoryId": 1
+    },
+    {
+      "id": 3,
+      "name": "Caixa de som portátil bluetooth",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quod labore ab nostrum, illo, sed iure eaque laudantium dignissimos repellat eveniet minima temporibus repudiandae illum iste blanditiis at repellendus eos! Neque doloribus non praesentium nam ipsam sed pariatur architecto? Nemo tempore facilis distinctio ex obcaecati dolores in quod beatae nulla.",
+      "img": "https://i.postimg.cc/dQTW1zTY/caixa-de-som-portatil.png",
+      "price": 84.99,
+      "promotionPercentage": 10,
+      "promotion": true,
+      "stock": 16,
+      "solds": 34,
+      "colors": [
+        {
+          "id": 1,
+          "name": "Azul",
+          "color": "#80e5ff",
+          "stock": 16,
+          "solds": 34
+        }
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "user": "Manoel",
+          "score": 4,
+          "comment": "Muito boa a caixa de som!"
+        },
+        {
+          "id": 2,
+          "user": "Leal",
+          "score": 5,
+          "comment": "A caixa tem um grave excelente!"
+        }
+      ],
+      "categoryId": 1
+    },
+    {
+      "id": 4,
+      "name": "Garrafa térmica de aluminio 500ml",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quod labore ab nostrum, illo, sed iure eaque laudantium dignissimos repellat eveniet minima temporibus repudiandae illum iste blanditiis at repellendus eos! Neque doloribus non praesentium nam ipsam sed pariatur architecto? Nemo tempore facilis distinctio ex obcaecati dolores in quod beatae nulla.",
+      "img": "https://i.postimg.cc/3xSFrCcS/garrafa-termica.png",
+      "price": 49.99,
+      "promotionPercentage": 20,
+      "promotion": true,
+      "stock": 100,
+      "solds": 50,
+      "colors": [
+        {
+          "id": 1,
+          "name": "Prata",
+          "color": "#dddd",
+          "stock": 100,
+          "solds": 50
+        }
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "user": "Mathias",
+          "score": 4,
+          "comment": "Muito boa!"
+        },
+        {
+          "id": 2,
+          "user": "Gabriel",
+          "score": 5,
+          "comment": "Excelente!"
+        }
+      ],
+      "categoryId": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Eletrônicos",
+      "img": "https://i.postimg.cc/ZKSZbk59/eletronicos.png"
+    },
+    {
+      "id": 2,
+      "name": "Jogos",
+      "img": "https://i.postimg.cc/jd4TC8DM/games.png"
+    },
+    {
+      "id": 3,
+      "name": "Acessórios",
+      "img": "https://i.postimg.cc/KYwSCwW8/acessorios.png"
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "userId": 1,
+      "product": {
+          "name": "Smartphone 256GB | 12GB RAM | 5G",
+          "img": "https://i.postimg.cc/x1g5hQBK/smartphone.png",
+          "price": 1299.99,
+          "promotionPercentage": 20,
+          "promotion": true,
+          "stock": 96,
+          "color": {
+              "name": "Azul",
+              "hex": "#80e5ff"
+          }
+      },
+      "quantity": 1
+  }
+  ]
 }

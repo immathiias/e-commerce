@@ -1,9 +1,7 @@
+import formatMoney from "../FormatMoney"
+
 export const Price = (props) => {
-    const formatter = Intl.NumberFormat("pt-BR", {
-        compactDisplay: "long",
-        currency: "BRL",
-        style: "currency"
-    });
+    const formatter = formatMoney()
 
     if (props.promotion === true) {
         const calcPrice = props.price - (props.price * (props.promotionPercentage / 100))
